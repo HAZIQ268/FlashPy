@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Auth</title>
+</head>
+<body>
+    <h2>Flask Authentication</h2>
+
+    {% for msg in messages %}
+        <p>{{ msg }}</p>
+    {% endfor %}
+
+    {% block content %}{% endblock %}
+
+</body>
+</html>
